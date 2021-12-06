@@ -1,0 +1,150 @@
+
+/*GLOBALES*/
+html{
+    font-size: 62,5%;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#reloj{
+    font-family: sans-serif;
+    font-size: 3.25rem;
+    text-shadow: 0px 0px 1px #161B1A;
+    background-color: #5a5a5a;
+}
+
+#contenedor{
+    background-color: #FF4343;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20% ;
+    padding: 10%;
+}
+
+#fecha{
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+
+.profile-pic{
+    width: 7rem;
+    border-radius: 50%;
+    filter:drop-shadow(3px 10px 12px #5a5a5a);
+}
+
+.contenedor-imagen{
+    text-align: center;
+    padding: 0%;
+    margin-bottom: -7rem;
+}
+
+.name{
+    text-align: center;
+    margin: -0.6rem;
+    border: #161B1A solid;
+    background-color: #161B1A;
+    width: 25%;
+    margin: -0.7rem auto;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+.footer{
+    height: 10rem;
+    background-color: #161B1A;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+.redes{
+    display: flex;
+    justify-content: center;
+    
+}
+
+@media(min-width: 768px) {
+
+    #contenedor{
+        background-color: #FF4343;
+        max-width: 40%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10% ;
+        padding: 10%;
+    }
+
+    #reloj{
+        font-family: sans-serif;
+        font-size: 4.25rem;
+        text-shadow: 0px 0px 1px #161B1A;
+        background-color: #5a5a5a;
+    }
+
+    #fecha{
+        letter-spacing: 10px;
+        font-size: 20px;
+    }
+
+    .name{
+        letter-spacing: 10px;
+        font-size: 20px;
+        text-align: center;
+        border: solid #161B1A;
+        background-color: #161B1A;
+        color: #fff;
+        width: 13%;
+        padding: 1%;
+        margin: -1.6rem auto;
+        font-family: sans-serif;
+    }
+
+    .contenedor-imagen{
+        text-align: center;
+        padding: 0%;
+        margin-bottom: -13.5rem;
+    }
+    
+    .profile-pic{
+        width: 10rem;
+        border-radius: 50%;
+        filter:drop-shadow(3px 10px 12px g#5a5a5a);
+    }
+
+    .footer{
+        height: 10rem;
+        background-color: #161B1A;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-top: 5rem;
+    }
+
+    .redes{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
