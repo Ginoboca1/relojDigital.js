@@ -30,7 +30,7 @@ a{
 
 #contenedor{
     background-color: #FF4343;
-    max-width: 50%;
+    width: 50%;
     text-align: center;
     margin: 0 auto;
     margin-top: 20% ;
@@ -56,6 +56,8 @@ a{
     margin-bottom: -7rem;
 }
 
+
+
 .name{
     text-align: center;
     margin: -0.6rem;
@@ -69,12 +71,16 @@ a{
 }
 
 .footer{
+    position: absolute;
     height: 10rem;
     background-color: #161B1A;
     align-items: center;
     display: flex;
     justify-content: center;
     margin-top: 5rem;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 
@@ -102,6 +108,7 @@ a{
         background-color: #5a5a5a;
     }
 
+    
     #fecha{
         letter-spacing: 10px;
         font-size: 20px;
@@ -138,8 +145,10 @@ a{
         align-items: center;
         display: flex;
         justify-content: center;
-        margin-top: 5rem;
-    }
+        margin-top: 3rem;
+        width: 100%;
+        }
+    
 
     .redes{
         display: flex;
