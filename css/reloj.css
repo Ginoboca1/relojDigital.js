@@ -54,9 +54,8 @@ a{
     text-align: center;
     padding: 0%;
     margin-bottom: -7rem;
+    margin-top: 2rem;
 }
-
-
 
 .name{
     text-align: center;
@@ -71,24 +70,20 @@ a{
 }
 
 .footer{
-    position: absolute;
-    height: 10rem;
-    background-color: #161B1A;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 5rem;
-    bottom: 0;
-    left: 0;
     width: 100%;
+    background-color:#161B1A;
+    height: 10rem;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 
 .redes{
     display: flex;
     justify-content: center;
-    
 }
+
 
 @media(min-width: 768px) {
 
@@ -140,20 +135,19 @@ a{
     }
 
     .footer{
-        height: 10rem;
-        background-color: #161B1A;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        margin-top: 3rem;
         width: 100%;
-        }
-    
+        background-color:#161B1A;
+        height: 10rem;
+        margin: 3rem 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     .redes{
         display: flex;
         justify-content: center;
-        gap: 2rem;
+        gap: 1.5rem;
     }
 }
 
